@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.show-btn{
+	background: #0f66c3;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 7px;
+	margin: auto;
+	display: block;
+	top: 50px;
+	position: relative;
+}
+
+#popup{
+	width: 40%;
+	background: #fff;
+	margin: auto;
+	box-shadow: 0 0 20px 0 #9c9c9c;
+	display: none;
+	position: relative;
+	border-radius: 5px;
+	min-height: 257px;
+}
+.header{
+	display: flex;
+	padding: 9px;
+	margin: 0;
+	color: #1d1c1c;
+	justify-content: space-between;
+	border-bottom: 1px solid #ddd;
+}
+
+.header>button{
+	color: #fff;
+	border: none;
+	background: red;
+	cursor: pointer;
+	height: 25px;
+	width: 25px;
+	font-weight: bold;
+}
+.header>h5{
+	margin: 0;
+	font-size: 20px;
+}
+
+.popup-body{
+	padding: 9px;
+}
