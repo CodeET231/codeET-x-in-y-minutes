@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./contact-form.css">
+  </head>
+  <body>
+    <div class="contact-form-container">
+      <div class="container-left-contents">
+        <h1 class="left-contents-title">Let’s get in touch!</h1>
+        <h3 class="left-contents-subtitle">
+          We are open for any suggestion or to have a chat.
+        </h3>
+        <div class="left-contents-contact-info">
+          <!-- Contact Info Location -->
+          <div class="contact-info-location">
+            <span class="location-left-icon">
+              <img id="icons" id="icons" src="./icons/location.png" alt="Location" />
+            </span>
+            <p class="location-right-text">
+              Duport Road, Paynesville Monrovia-Liberia
+            </p>
+          </div>
+          <!-- Contact Info Email -->
+          <div class="contact-info-email">
+            <span class="email-left-icon">
+              <img id="icons" src="./icons/email.png" alt="Email" />
+            </span>
+            <p class="email-right-text">codeeverytime2023@gmail.com</p>
+          </div>
+          <!-- Contact Info Phone -->
+          <div class="contact-info-phone">
+            <span class="phone-left-icon">
+              <img id="icons" src="./icons/phone.png" alt="Phone" />
+            </span>
+            <p class="phone-right-text">+23144445555/+32445566</p>
+          </div>
+          <!-- Contact Info Facebook -->
+          <div class="contact-info-facebook">
+            <span class="facebook-left-icon">
+              <img id="social-icons" src="./icons/facebook.png" alt="Facebook" />
+            </span>
+            <p class="facebook-right-text">Code ET</p>
+          </div>
+          <!-- Contact Info Instagram -->
+          <div class="contact-info-instagram">
+            <span class="instagram-left-icon">
+              <img id="social-icons" src="./icons/instagram.png" alt="Instagram" />
+            </span>
+            <p class="instagram-right-text">codeeverytime231</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact form right content -->
+      <div class="container-right-contents">
+        <form action="" class="contact-form">
+            <!-- Name Input -->
+            <div class="contact-form-name">
+                <label for="name-input">Name</label>
+                <input placeholder="enter full name" id="name-input" type="text">
+            </div>
+            <!-- Email Input -->
+            <div class="contact-form-email">
+                <label for="email-input">Email</label>
+                <input placeholder="enter email" id="email-input" type="email">
+            </div>
+            <!-- Subject Input -->
+            <div class="contact-form-subject">
+                <label for="subject-input">Subject</label>
+                <input placeholder="enter subject" id="name-input" type="text">
+            </div>
+            <!-- Message Input -->
+            <div class="contact-form-message">
+                <label for="message-input">Message</label>
+                <textarea placeholder="enter message"  id="message-input" cols="20" rows="4"></textarea>
+            </div>
+            <button class="form-submit-button" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
